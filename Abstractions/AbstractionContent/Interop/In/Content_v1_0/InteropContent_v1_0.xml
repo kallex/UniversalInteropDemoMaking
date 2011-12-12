@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InteropAbstraction xmlns="http://tempuri.org/Interop_v1_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://tempuri.org/Interop_v1_0.xsd ../../../../InteropABS/Interop/Content_v1_0/Interop_v1_0.xsd">
+	<Services>
+		<Service name="TestService" serviceId="xxx" designDesc="Example service">
+			<Listeners>
+				<Listener callType="WithinSameProcess"/>
+			</Listeners>
+			<Methods>
+        <Method name="TestMethod1" returnValueType="string" designDesc="Return evaluation statement for adding up given parameters">
+          <Parameter logicalDataType="int" name="Number1" designDesc="Number1 to add in"/>
+          <Parameter logicalDataType="int" name="Number2" designDesc="Number 2 to add in"/>
+        </Method>
+			</Methods>
+		</Service>
+	</Services>
+</InteropAbstraction>
